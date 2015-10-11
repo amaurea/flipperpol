@@ -1,10 +1,7 @@
-from flipper import *
-import fftPol
-import numpy
-import pyfits
+import numpy, astropy.io.fits as pyfits
 from scipy.interpolate import splrep,splev
-import systematicAndBeam
-
+from flipper import *
+from . import fftPol, systematicAndBeam
 
 def makeTemplate(m, wl, ell, maxEll, outputFile = None):
     """

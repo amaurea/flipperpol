@@ -1,7 +1,5 @@
-from flipper import *
-import liteMapPol
 import numpy
-
+from flipper import *
 
 def generateBeam(T_map,fullBeamMatrix):
 

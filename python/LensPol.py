@@ -1,12 +1,6 @@
-from flipper import *
 import numpy
-from flipperPol import *
-
-
-
-
-
-
+from flipper import liteMap
+from . import liteMapPol
 
 def  LensedSimPolMaps(m0,ell,Cell_TT,Cell_EE,Cell_TE,Cell_BB=None,nUp=3,bufferFactor=1):
     

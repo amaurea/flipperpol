@@ -1,8 +1,6 @@
-from flipper import *
-import liteMapPol
 import numpy
 from scipy.interpolate import splrep,splev
-
+from flipper import *
 
 def TQUtoPureTEB(T_map,Q_map,U_map,window_T,window_Pol, modLMap,angLMap,method='standard',fftType=None):
 
